@@ -3,7 +3,18 @@
         "date": "2026-05-22",
         "title": "リストの合計値計算",
         "topic": "リスト操作, for文, 変数",
-        "score": 95
+        "score": 95,
+        "challenges": [
+            {
+                "time": "12:25:21",
+                "title": "氏名結合プログラム",
+                "topic": "文字列操作、標準入出力",
+                "problem_description": "ユーザーから苗字と名前をそれぞれ別の行で入力として受け取ります。これらを結合し、「苗字 名前」の形式で出力するプログラムを作成してください。苗字と名前の間には半角スペースを1つ入れてください。",
+                "my_code": "\nuser = input(\"苗字を入力してください: \")\nuser_name = input(\"名前を入力してください: \")\nprint(f\"{user}{user_name}\")\n\n",
+                "score": 70
+            }
+        ],
+        "total_solved_today": 1
     },
     {
         "date": "2026-05-22",
