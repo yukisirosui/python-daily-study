@@ -1,23 +1,15 @@
 [
     {
-        "date": "2026-05-25",
-        "total_solved_today": 2,
+        "date": "2026-05-26",
+        "total_solved_today": 1,
         "challenges": [
             {
-                "time": "12:22:31",
-                "title": "2つの整数の合計計算",
-                "topic": "基本的な入出力と算術演算",
-                "problem_description": "ユーザーから2つの整数を受け取り、それらの合計を計算して出力するプログラムを作成してください。",
-                "my_code": "\n    x = input(\"ここに整数を記入してください：\")\n    y = input(\"ここに整数を記入してください：\")\n    total = int(x) + int(y)\n    print(f\"{x} + {y} = {total}\")\n",
-                "score": 90
-            },
-            {
-                "time": "12:25:02",
-                "title": "2つの整数の合計計算",
-                "topic": "基本的な入出力と算術演算",
-                "problem_description": "ユーザーから2つの整数を受け取り、それらの合計を計算して出力するプログラムを作成してください。",
-                "my_code": "\n    x = input(\"ここに整数を記入してください：\")\n    y = input(\"ここに整数を記入してください：\")\n    total = int(x) + int(y)\n    print(f\"{x} + {y} = {total}\")\n",
-                "score": 95
+                "time": "00:06:23",
+                "title": "2つの整数の合計",
+                "topic": "基本的な入力と出力、算術演算",
+                "problem_description": "キーボードから2つの整数（-1000000以上1000000以下の範囲）が1行ずつ入力されます。これらの2つの整数を読み込み、それらの合計を計算して出力するプログラムを作成してください。",
+                "my_code": "\n    x = input(\"ここに整数を記入してください：\")\n    y = input(\"ここに２つ目の整数を記入してください：\")\n    total = int(x) + int(y)\n    print(f\"{x} + {y} = {total}\")\n",
+                "score": 85
             }
         ]
     }
